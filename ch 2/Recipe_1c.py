@@ -1,5 +1,10 @@
+
 # Alternate ways of creating arrays
 # 1. Leverage np.arange to create numpy array
+import numpy as np
+
+from Display_Shape import display_shape
+
 created_array = np.arange(1,10,dtype=float)
 display_shape(created_array)
 

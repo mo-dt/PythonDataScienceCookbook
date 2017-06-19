@@ -1,4 +1,7 @@
 # Array shaping
+from Display_Shape import display_shape
+import numpy as np
+
 a_matrix = np.arange(9).reshape(3,3)
 display_shape(a_matrix)
 

@@ -2,7 +2,6 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 
-
 def simple_line_plot(x,y,figure_no):
     plt.figure(figure_no)
     plt.plot(x,y)
@@ -17,8 +16,7 @@ def simple_dots(x,y,figure_no):
     plt.xlabel('x values')
     plt.ylabel('y values')
     plt.title('Simple Dots')
-    
-    
+
 def simple_scatter(x,y,figure_no):
     plt.figure(figure_no)
     plt.scatter(x,y)

@@ -1,4 +1,8 @@
+import numpy as np
+
 # Create a matrix will all elements as 1
+from Display_Shape import display_shape
+
 ones_matrix = np.ones((3,3))
 display_shape(ones_matrix)
 

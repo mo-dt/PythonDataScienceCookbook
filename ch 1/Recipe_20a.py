@@ -13,9 +13,11 @@ convert_funcs = {0:strip_func_1,1:strip_func_2}
 
 # 3.Now provide this dictionary of functions to genfromtxt.
 data = np.genfromtxt(in_data,delimiter=",", converters=convert_funcs)
+print data
 
 # Using a lambda function to handle conversions
 in_data = StringIO("10,20,30\n56,,90\n33,46,89")
 mss_func = lambda x : float(x.strip() or -999)
 data = np.genfromtxt(in_data,delimiter=",", converters={1:mss_func})
+print data
     

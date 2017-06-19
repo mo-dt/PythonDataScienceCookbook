@@ -1,3 +1,5 @@
+import numpy as np
+
 # Random numbers
 general_random_numbers = np.random.randint(1,100, size=10)
 print general_random_numbers

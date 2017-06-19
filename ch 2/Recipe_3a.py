@@ -1,4 +1,4 @@
-from sklearn.datasets import load_iris,load_boston,make_classification \
+from sklearn.datasets import load_iris,load_boston,make_classification,\
                         make_circles, make_moons
 
 

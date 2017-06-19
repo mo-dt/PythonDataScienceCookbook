@@ -11,8 +11,6 @@ class SimpleCounter(object):
     def next(self):
         'Returns the next value till current is lower than end'
         if self.current > self.end:
-
-
             raise StopIteration
         else:
             self.current += 1
